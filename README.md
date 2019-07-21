@@ -1,0 +1,2 @@
+# Rafotel
+Hotel manager system.
