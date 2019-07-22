@@ -6,16 +6,10 @@ using Rafotel.Repository.Interface;
 
 namespace Rafotel.Repository
 {
-    public class RoomRepository:Repository<Room>
+    public class RoomRepository : Repository<Room>
     {
-        private IList<Room> _room;
-
         public RoomRepository()
         {
-            _room = new List<Room>();
         }
-
-
-
     }
 }

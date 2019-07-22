@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Repository", "..\Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Business", "..\Rafotel.Business\Rafotel.Business.csproj", "{B95FD1AC-CFFE-4B5A-A4CC-0E92DC64BA15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafote.Services", "..\Rafote.Services\Rafote.Services.csproj", "{41A9E93E-4254-403C-8E8A-C5028AC9E706}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Services", "..\Rafote.Services\Rafotel.Services.csproj", "{41A9E93E-4254-403C-8E8A-C5028AC9E706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Services.Tests", "..\Rafotel.Services.Tests\Rafotel.Services.Tests.csproj", "{EBC87958-63D1-430B-AA49-3C921C4BFCE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{41A9E93E-4254-403C-8E8A-C5028AC9E706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41A9E93E-4254-403C-8E8A-C5028AC9E706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41A9E93E-4254-403C-8E8A-C5028AC9E706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC87958-63D1-430B-AA49-3C921C4BFCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC87958-63D1-430B-AA49-3C921C4BFCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC87958-63D1-430B-AA49-3C921C4BFCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC87958-63D1-430B-AA49-3C921C4BFCE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

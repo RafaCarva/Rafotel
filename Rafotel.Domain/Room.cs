@@ -11,7 +11,7 @@ namespace Rafotel.Domain
         public string roomNumber { get; set; }
         public bool isLocked { get; set; }
         public bool isReserved { get; set; }
-        public RoomTypeEnum rommType { get; set; }
+        public RoomTypeEnum roomType { get; set; }
 
     }
 }
