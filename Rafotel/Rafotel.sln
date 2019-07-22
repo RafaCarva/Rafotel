@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel", "Rafotel.csproj", "{0D272747-D7EB-4717-B528-6328148861DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rafotel", "Rafotel.csproj", "{0D272747-D7EB-4717-B528-6328148861DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Domain", "..\Rafotel.Domain\Rafotel.Domain.csproj", "{6E34C203-EE67-4A42-9A61-0A3D2DC78045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rafotel.Domain", "..\Rafotel.Domain\Rafotel.Domain.csproj", "{6E34C203-EE67-4A42-9A61-0A3D2DC78045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Repository", "..\Rafotel.Repository\Rafotel.Repository.csproj", "{5833F259-DD56-4DC7-8FD8-431AF382F441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rafotel.Repository", "..\Rafotel.Repository\Rafotel.Repository.csproj", "{5833F259-DD56-4DC7-8FD8-431AF382F441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Business", "..\Rafotel.Business\Rafotel.Business.csproj", "{B95FD1AC-CFFE-4B5A-A4CC-0E92DC64BA15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rafotel.Business", "..\Rafotel.Business\Rafotel.Business.csproj", "{B95FD1AC-CFFE-4B5A-A4CC-0E92DC64BA15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Services", "..\Rafote.Services\Rafotel.Services.csproj", "{41A9E93E-4254-403C-8E8A-C5028AC9E706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rafotel.Services.Tests", "..\Rafotel.Services.Tests\Rafotel.Services.Tests.csproj", "{EBC87958-63D1-430B-AA49-3C921C4BFCE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Services.Tests", "..\Rafotel.Services.Tests\Rafotel.Services.Tests.csproj", "{EBC87958-63D1-430B-AA49-3C921C4BFCE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rafotel.Services", "..\Rafotel.Services\Rafotel.Services.csproj", "{C4A7E61F-3AD2-47B2-9333-0A1C868C1D48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,14 @@ Global
 		{B95FD1AC-CFFE-4B5A-A4CC-0E92DC64BA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B95FD1AC-CFFE-4B5A-A4CC-0E92DC64BA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B95FD1AC-CFFE-4B5A-A4CC-0E92DC64BA15}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41A9E93E-4254-403C-8E8A-C5028AC9E706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41A9E93E-4254-403C-8E8A-C5028AC9E706}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41A9E93E-4254-403C-8E8A-C5028AC9E706}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41A9E93E-4254-403C-8E8A-C5028AC9E706}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EBC87958-63D1-430B-AA49-3C921C4BFCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EBC87958-63D1-430B-AA49-3C921C4BFCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBC87958-63D1-430B-AA49-3C921C4BFCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBC87958-63D1-430B-AA49-3C921C4BFCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A7E61F-3AD2-47B2-9333-0A1C868C1D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A7E61F-3AD2-47B2-9333-0A1C868C1D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A7E61F-3AD2-47B2-9333-0A1C868C1D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A7E61F-3AD2-47B2-9333-0A1C868C1D48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

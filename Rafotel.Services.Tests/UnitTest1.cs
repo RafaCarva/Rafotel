@@ -1,8 +1,8 @@
 using Moq;
 using Rafotel.Business.Interfaces;
 using Rafotel.Domain;
+using Rafotel.Services;
 using Rafotel.Domain.ValueObject;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
@@ -31,7 +31,7 @@ namespace Rafotel.Services.Tests
             Assert.NotNull(rooms);
             Assert.True(rooms.Any());
 
-            for (var index=0;index<rooms.Count ;index++)
+            for (var index=0; index < rooms.Count ;index++)
             {
                 Assert.Equal(roomExpectancy[index].roomNumber, rooms[index].roomNumber);
                 Assert.Equal(roomExpectancy[index].isLocked, rooms[index].isLocked);

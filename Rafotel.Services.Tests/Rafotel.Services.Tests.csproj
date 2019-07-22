@@ -14,7 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rafote.Services\Rafotel.Services.csproj" />
+    <ProjectReference Include="..\Rafotel.Business\Rafotel.Business.csproj" />
+    <ProjectReference Include="..\Rafotel.Domain\Rafotel.Domain.csproj" />
+    <ProjectReference Include="..\Rafotel.Repository\Rafotel.Repository.csproj" />
+    <ProjectReference Include="..\Rafotel.Services\Rafotel.Services.csproj" />
   </ItemGroup>
 
 </Project>

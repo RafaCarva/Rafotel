@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Rafotel.Business\Rafotel.Business.csproj" />
+    <ProjectReference Include="..\Rafotel.Domain\Rafotel.Domain.csproj" />
   </ItemGroup>
 
 </Project>
